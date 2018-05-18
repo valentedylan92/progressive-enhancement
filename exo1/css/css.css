@@ -1,0 +1,78 @@
+body{
+  max-width: 90%;
+  margin:auto;
+  /* background: -webkit-linear-gradient(rgb(186, 211, 234), rgb(116, 172, 228));
+  background: linear-gradient(rgb(186, 211, 234), rgb(116, 172, 228)); */
+  background-image: url(https://cdn.pixabay.com/photo/2017/12/01/08/51/bokeh-2990418_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+
+}
+
+blockquote{
+  margin: auto;
+  width: 50%;
+  font-size: 160%;
+  background-color: #dbdcdd;
+  border-left: solid 3px #d85d3e;
+  padding-left: 30px;
+  margin: 80px auto;
+}
+
+span{
+  text-transform: uppercase;
+}
+
+blockquote, q{
+  font-style: italic;
+}
+.bien{
+  color: blue
+}
+.mal{
+  color: red
+}
+
+td, th{
+  padding: 20px;
+}
+
+tr{
+  background-color: white;
+}
+
+tr:nth-child(2n){
+  background-color: #dbdcdd
+}
+.people_type{
+  width: 400px;
+  padding-right: 20px;
+}
+.people_type li{
+  padding: 20px;
+}
+
+.people_type li:first-child{
+  background-image: url(https://raw.githubusercontent.com/becodeorg/lovelace-2/master/01-La-prairie/html-css/progressive-enhancement/bien.png);
+  background-repeat: no-repeat;
+  background-position: right;
+
+}
+.people_type li:nth-child(2){
+  background-image: url(https://raw.githubusercontent.com/becodeorg/lovelace-2/master/01-La-prairie/html-css/progressive-enhancement/mal.png);
+  background-repeat: no-repeat;
+  background-position: right;
+
+
+}
+.people_type li:nth-child(3){
+  background-image: url(https://raw.githubusercontent.com/becodeorg/lovelace-2/master/01-La-prairie/html-css/progressive-enhancement/chat.png);
+  background-repeat: no-repeat;
+  background-position: right;
+
+}
+
+hr+p{
+  font-weight: bold;
+}
