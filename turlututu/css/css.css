@@ -1,0 +1,131 @@
+body{
+  font-family: 'Open Sans','Arial','Helvetica', sans-serif;
+}
+
+/* ---------  */
+/* NAVIGATION */
+/* ---------  */
+
+.navigation{
+  background-color: #363636;
+  width:100%;
+  height: 80px;
+}
+
+.navigation__inner{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.menu__item{
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.logo{
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.menu__link, .login__link{
+  color: white;
+  text-decoration: none;
+  transition: color ease 0.7s;
+}
+
+.menu__link:hover, .login__link:hover{
+  color:#fa8f10;
+}
+
+.fas{
+  margin-right: 8px;
+}
+
+/* ---------  */
+/*   HEADER   */
+/* ---------  */
+
+.header{
+  width: 100%;
+  height: 540px;
+  background-color: #1E93CC;
+}
+
+.header__inner{
+  width: 100%;
+  max-width: 1200px;
+  height: 540px;
+  box-sizing: border-box;
+  padding: 50px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(../assets/avatar.png) no-repeat;
+  background-position: left 128px;
+  background-size: 250px;
+}
+
+.header__title{
+  font-size: 70px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.header__subtitle{
+  font-size: 35px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.header__link{
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 30px;
+  background-color: #fa8f10;
+  border-radius: 20px;
+  border: 3px white solid;
+  transition: background 0.7s ease;
+}
+
+.header__link:hover{
+  background-color: #ff6e26;
+}
+
+
+/* ---------  */
+/*   SLOGAN   */
+/* ---------  */
+
+.section__slogan{
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+}
+
+.slogan__text{
+    font-size: 30px;
+}
+
+.section__perks{
+  width: 100%;
+  height: 540px;
+  background-color: #1E93CC;
+}
+
+.perks__container{
+  width: 100%;
+  max-width: 1200px;
+  height: 540px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
